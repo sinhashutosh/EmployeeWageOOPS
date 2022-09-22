@@ -1,2 +1,2 @@
-Welcome to Employee
-Wage Computation Program 
+Check Employee is
+Present or Absent
