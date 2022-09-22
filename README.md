@@ -1,4 +1,5 @@
 Calculate Daily
-Employee Wage
-- Assume Wage per Hour is 20
-- Assume Full Day Hour is 8
+Employee Wage 
+Add Part time
+Employee & Wage
+- Assume Part time Hour is 3
