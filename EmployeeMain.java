@@ -6,8 +6,10 @@ public class EmployeeMain {
         System.out.println("Welcome to Employee Wage Computation");
         System.out.println("Checking Employee is absent or present");
         EmployeeAttendance attendance = new EmployeeAttendance();
-        isPresent = attendance.checkAttandance();
         EmployeeWageCal calculator = new EmployeeWageCal();
-        calculator.wageCalculator(isPresent);
+        for (int i = 1; i <= 20; i++) {
+            isPresent = attendance.checkAttandance();
+            calculator.wageCalculator(isPresent);
+        }
     }
 }
