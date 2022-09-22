@@ -5,6 +5,7 @@ public class EmployeeWageCal {
     int full_day_hour = 8;
     int part_time_hour = 3;
     int wage = 0;
+    int total_wage=0;
 
     void wageCalculator(int isPresent) {
         switch (isPresent) {
@@ -18,6 +19,7 @@ public class EmployeeWageCal {
                 wage = wage_per_hour * full_day_hour;
                 break;
         }
-        System.out.println("Employee Wage = " + wage);
+        total_wage = total_wage + wage;
+        System.out.println("Employee Wage = " + total_wage);
     }
 }

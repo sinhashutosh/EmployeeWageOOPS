@@ -22,4 +22,3 @@ public class EmployeeAttendance {
         return isPresent;
     }
 }
-
