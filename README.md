@@ -1,7 +1,7 @@
-Compute Employee Wage
-for multiple companies - Note: Each Company has its own
-wage, number of working days
-and working hours per month
-- Use Class Method with function
-parameters instead of Class
-Variables
+Ability to save the Total
+Wage for Each
+Company - Note: You can Create
+EmpWageBuilder for each
+Company
+- Use Instance Variable instead of
+  function parameters
